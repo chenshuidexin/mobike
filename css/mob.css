@@ -1,4 +1,4 @@
-body{background:lightblue;font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', Arial, Verdana, sans-serif}
+body{background: #ffffff;;font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', Arial, Verdana, sans-serif}
 /* 版心公用 */
 .container-md{width: 1040px;padding: 0 20px ;margin: 0 auto;}
 .header-wrap{position: relative}
@@ -42,6 +42,19 @@ body{background:lightblue;font-family: 'Helvetica Neue', Helvetica, 'PingFang SC
 .meta-links .txt h3{font-weight: 400}
 .meta-links .txt p{font-size: 16px;font-weight: 300}
 
+/* 尾部结局 */
+.footer{border-top:1px solid #eee;border-bottom: 1px solid #eee;padding: 45px;box-sizing: border-box}
+.main-links{height: 155px;margin-right: 40px;line-height: 155px;float: left}
+.main-links .pic{width: 160px;height: 36px;margin-bottom: 10px}
+.main-links img{display: block;width: 160px;height: 36px;}
+.main-links li{font-size: 16px;font-weight: 300;line-height: 2.3}
+
+
+.footer .footer-list-wrap{padding-left:125px;float: left }
+.footer .footer-list-wrap h3{height: 25px;margin-bottom: 5px}
+.footer .footer-list-wrap li{font-size: 15px;line-height: 2;font-weight: 300;}
+
+
 /* pad适配 */
 @media screen and (max-width:1080px){
     .container-md{width: 100%;box-sizing: border-box}
@@ -51,11 +64,16 @@ body{background:lightblue;font-family: 'Helvetica Neue', Helvetica, 'PingFang SC
 /* 手机适配 */
 @media  screen and (max-width:640px){
     .font-logo{font-size: 45px}
-    .swiper-slide img{height: 546px;}
+    .swiper-slide img{height: 380px;}
     .header-txt{width: 80%;margin-left: 8px}
     .news-ad .news{vertical-align: 14px}
     .hero{width: 100%;}
     .meta-links{width: 100%;padding:20px 0}
     .meta-links:nth-child(2){text-align: left}
     .meta-links:nth-child(3){text-align: left}
+    
+    .footer .main-links{width: 100%;}
+    .footer .second-links{width: 280px;height: 360px;}
+    .second-links .footer-list-wrap{width: 140px;height: 125px;margin:40px -63px}
+
 }
